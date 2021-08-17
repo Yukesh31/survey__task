@@ -1,1 +1,18 @@
 
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .container{
+        border: 2px solid black;
+        width: max-content;
+        height: max-content;
+        background-color: burlywood;
+    }
+    section{
+        display: grid;
+    }
+    @media(max-width:1000px){
+        section{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
